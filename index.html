@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Sayı Tahmin Oyunu</title>
+</head>
+<body>
+
+    <div class="aciklama">
+        <h2>Sayı Tahmin Oyununa Hoşgeldin</h2>
+        <ul>
+            <li>Lütfen 4 basamaklı bir sayı giriniz.</li>
+            <li>Girilen sayının rakamları birbirinden farklı olmalıdır.</li>
+            <li>İyi eğlenceler...</li>
+        </ul>
+    </div>
+    <div id="sayiTahmin">
+        <input type="text" id="sayi" onfocus="this.value=''">
+        <input type="button" id="tahminEt" value="Tahmin Et" disabled>
+        <input type="button" id="yeniOyun" value="Yeni Oyun">
+        <p id="sonuc"></p>
+    </div>
+   
+    <script src="script.js"></script>
+</body>
+</html>
